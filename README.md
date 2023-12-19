@@ -1,26 +1,31 @@
 # ShadowSpy-Invisible-Keystroke-Tracker-with-Email-Alerts-and System Information Gatherer
 
 
-This script is a keylogger and system information gatherer built in Python. It captures keystrokes, takes periodic screenshots, and collects system information, sending reports via email.
+Certainly! Here's a simple README template you can use for your Python keylogger and system information gathering script:
+
+```markdown
+# Python Keylogger and System Info
+
+This Python script acts as a keylogger and system information gatherer. It captures keystrokes, takes periodic screenshots, and collects system information to assist in troubleshooting and monitoring.
 
 ## Features
 
-- **Keylogger:** Records alphanumeric keystrokes and stores them in a text file.
-- **Screenshot Capture:** Periodically captures screenshots and saves them as images.
-- **System Information:** Gathers system information including OS, hardware, network details, etc.
-- **Email Reports:** Sends collected data (keystrokes, screenshots, system info) via email.
+- **Keylogger:** Records alphanumeric keystrokes and stores them in a text file (`keystrokes.txt`).
+- **Screenshot Capture:** Periodically captures screenshots and saves them as `screenshot.png`.
+- **System Information:** Gathers and logs various system details into `system_info.txt`.
 
 ## Prerequisites
 
 - Python 3.x
-- Required Python packages: `pynput`, `Pillow`, `requests`, `pyperclip`
+- Required Python packages: `pynput`, `Pillow`, `requests`, `pyperclip`, `geopy`
 
-## Setup
+## Installation
 
-1. Clone the repository:
+1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/keylogger-system-info.git
+   git clone https://github.com/
+   cd 
    ```
 
 2. Install dependencies:
@@ -31,28 +36,31 @@ This script is a keylogger and system information gatherer built in Python. It c
 
 3. Configure the script:
 
-   - Open `main.py` and update the email credentials (`from_email`, `password`) and recipient email (`to_email`).
-   - Ensure the SMTP server and port are correct.
+   - Update the `OUTPUT_FOLDER` variable in `main.py` to specify the folder where output files will be saved.
+   - Replace email credentials in the `send_email` function with your own SMTP server and email details.
 
-4. Run the script:
+## Usage
+
+1. Run the script:
 
    ```bash
    python main.py
    ```
 
-## Configuration
+2. The keylogger and system information gathering will start in separate threads.
 
-- `OUTPUT_FOLDER`: Specifies the folder where files (keystrokes, screenshots, system_info) will be saved.
-- `SCREENSHOT_INTERVAL`: Interval for periodic screenshot capture (in seconds).
-- `SYSTEM_INFO_INTERVAL`: Interval for sending system information via email (in seconds).
+3. Press `ESC` to stop the keylogger.
 
-## Disclaimer
+## Notes
 
-This script is intended for educational purposes only. Use responsibly and only on systems you own or have explicit permission to monitor.
+- Use this script responsibly and only for educational or authorized purposes.
+- Be cautious not to violate privacy laws or ethical standards.
+
+## Author
+
+Abdullah Alsowadi
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
-
-
