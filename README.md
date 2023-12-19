@@ -55,6 +55,4 @@ This script is intended for educational purposes only. Use responsibly and only 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
 
-Replace placeholders like `your-username` and update sections as needed. Additionally, include a `LICENSE` file if you choose a license for your project.
 
-This README provides a brief overview of the script's features, setup instructions, configuration details, and a disclaimer. You can enhance or modify it based on your specific project details and requirements.
