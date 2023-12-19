@@ -1,11 +1,5 @@
 # ShadowSpy-Invisible-Keystroke-Tracker-with-Email-Alerts-and System Information Gatherer
 
-
-Certainly! Here's a simple README template you can use for your Python keylogger and system information gathering script:
-
-```markdown
-# Python Keylogger and System Info
-
 This Python script acts as a keylogger and system information gatherer. It captures keystrokes, takes periodic screenshots, and collects system information to assist in troubleshooting and monitoring.
 
 ## Features
